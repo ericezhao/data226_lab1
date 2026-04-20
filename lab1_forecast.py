@@ -92,7 +92,7 @@ with DAG(
     start_date = datetime(2026,3,3),
     catchup=False,
     tags=['ML', 'ELT'],
-    schedule = '30 2 * * *'
+    schedule = '30 3 * * *'
 ) as dag:
 
     train_input_table = "raw.weather_data_lab1"
